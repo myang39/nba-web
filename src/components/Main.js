@@ -1,6 +1,7 @@
 import React from 'react';
 import nba from 'nba';
 import {Profile} from "./Profile";
+import {ShotChart} from "./ShotChart";
 
 export class Main extends React.Component {
     state = {
@@ -23,13 +24,14 @@ export class Main extends React.Component {
             .catch(console.log);
     }
 
-    render () {
+    render() {
         return (
             <div className="main">
-                <Profile playerInfo={this.state.playerInfo}/>
-                <div>shotChart</div>
+                <Profile playerInfo={this.state.playerInfo} />
+                <ShotChart playerId={this.state.playerId} />
             </div>
         );
     }
+
 }
 
