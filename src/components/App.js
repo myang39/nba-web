@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../assets/images/logo.svg';
+import logo from '../assets/images/nba-logoman-word-white.svg';
 import {TopBar} from "./TopBar";
 
 class App extends Component {

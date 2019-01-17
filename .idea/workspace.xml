@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50de0d24-b16f-413b-ad4c-dda99be0257c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/TopBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/nba-logoman-word-white.svg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -137,6 +134,13 @@
               <item name="nba-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="nba-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nba-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nba-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -187,16 +191,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547684758896</updated>
-      <workItem from="1547684761579" duration="1736000" />
+      <workItem from="1547684761579" duration="2124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1736000" />
+    <option name="totallyTimeSpent" value="2124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="23" width="1252" height="749" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
