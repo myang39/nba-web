@@ -10,10 +10,16 @@ export class CountSlider extends React.Component {
     }
 
     onChange = (value) => {
+        let cleanValue = Number(value) ? value : this.state.inputValue;
+        if (cleanValue < 2) {
+            cleanValue = 2;
+        } else if (cleanValue > 20) {
+            cleanValue = 20;
+        }
         this.setState({
-            inputValue: value,
+            inputValue: cleanValue,
         });
-        this.props.onChange(value);
+        this.props.onChange(cleanValue);
     }
 
     render() {
